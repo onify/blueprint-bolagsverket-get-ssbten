@@ -1,0 +1,36 @@
+{
+  "name": "@onify/blueprint-bolagsverket-get-ssbten",
+  "version": "0.0.1",
+  "description": "Onify Blueprint: Get orgdata from Bolagsverket SSBT",
+  "scripts": {
+    "test": "mocha",
+    "posttest": "eslint . --cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onify/blueprint-bolagsverket-get-ssbten.git"
+  },
+  "keywords": [
+    "onify",
+    "blueprint",
+    "skatteverket",
+    "navet",
+    "bpmn"
+  ],
+  "author": {
+    "name": "Onify",
+    "url": "https://github.com/onify"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/onify/blueprint-bolagsverket-get-ssbten#readme",
+  "devDependencies": {
+    "@onify/flow-validator": "^0.0.3",
+    "chai": "^4.3.7",
+    "cron": "^2.1.0",
+    "eslint": "^8.52.0",
+    "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.5.1"
+  }
+}
